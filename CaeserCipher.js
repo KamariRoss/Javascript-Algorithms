@@ -15,6 +15,8 @@ function caesarCipher(str, num) {
       newString += currentLetter
       continue
     }
+    const currentIndex = alphabet.indexOf(currentLetter)
+    const newIndex = currentIndex + num
   }
 }
 caesarCipher("zoo keeper", 2)
